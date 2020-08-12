@@ -1,0 +1,134 @@
+body {
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    height: 100vh;
+}
+
+.form-control {
+    margin-top: 18px;
+    position: relative;
+}
+
+.image-section {
+    max-width: 600px;
+    max-height: 550px;
+    margin-bottom: 10rem;
+}
+
+.image {
+    width: 100%;
+}
+
+.header h1 {
+    color: #067bc9;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+.header h2 {
+    font-weight: 400;
+    font-size: 2em;
+    margin-top: 0;
+    width: 400px;
+}
+
+.light-text {
+  color:#a5aeb7;
+}
+
+.form-container {
+    height: 700px;
+    align-self: center;
+    padding-left: 4%;
+    margin-top: 5rem;
+
+}
+
+.form {
+    padding-top: 4rem;
+}
+
+.error-msg {
+    color: #8B0000;
+    display: block;
+    margin-top: 1.5rem;
+}
+
+.form-input:focus {
+  outline-color: rgba(6, 123, 201);
+}
+
+.form-input {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border-left: 10px solid #067bc9;
+}
+
+.email-password-place{
+    position: absolute;
+    font-size:10px;
+    top: 0;
+    left: 30px;
+    padding: 7px 0 0 24px;
+    color: #a5aeb7;
+}
+
+input[type=text],
+input[type=password] {
+    padding-top: 20px;
+    font-size: 15px;
+    color: #067bc9;
+}
+
+
+.forget-password {
+    padding-left: 1rem;
+    text-decoration: none;
+    color: #a5aeb7;
+}
+
+.button {
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 2.1rem;
+    width: 6rem;
+    border-radius: 4px;
+    outline: 0;
+}
+
+.sign-up {
+    color: #067bc9;
+    background-color: #fff;
+    margin-left: 0.7rem;
+    border: 2px solid #067bc9
+}
+
+.sign-up:hover {
+    background-color: #067bc9;
+    color: #fff;
+}
+
+.login {
+    background-color: #067bc9;
+    border: 1px solid #067bc9;
+    color: #fff;
+    box-shadow: 2px 2px 10px #067bc9;
+}
